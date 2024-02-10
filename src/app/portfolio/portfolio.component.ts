@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
 
   photos:any[]=[
-    {photoSrc:"../../assets/images/port1.png"},
-    {photoSrc:"../../assets/images/port2.png"},
-    {photoSrc:"../../assets/images/port3.png"},
-    {photoSrc:"../../assets/images/port1.png"},
-    {photoSrc:"../../assets/images/port2.png"},
-    {photoSrc:"../../assets/images/port3.png"},
+    {photoSrc:"./assets/images/port1.png"},
+    {photoSrc:"./assets/images/port2.png"},
+    {photoSrc:"./assets/images/port3.png"},
+    {photoSrc:"./assets/images/port1.png"},
+    {photoSrc:"./assets/images/port2.png"},
+    {photoSrc:"./assets/images/port3.png"},
   ]
 
 
