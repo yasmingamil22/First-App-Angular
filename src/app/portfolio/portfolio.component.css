@@ -1,0 +1,25 @@
+.photo{
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.photo .layer{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: #1abc9cd4;
+opacity: 0;
+transition: opacity .5s;
+}
+.photo .layer:hover{
+    opacity: 1;
+
+}
+
+.model img{
+    width: 600px;
+}

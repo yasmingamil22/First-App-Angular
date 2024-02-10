@@ -1,0 +1,10 @@
+.navbar{
+    background-color: var(--second-color);
+    transition: padding .5s ease;
+          
+}
+.selected{
+    background-color: var(--main-color);
+    border-radius: 6px;
+
+}

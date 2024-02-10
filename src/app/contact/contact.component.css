@@ -1,0 +1,10 @@
+input:focus{
+    box-shadow: none;
+    
+}
+label{
+    color: var(--main-color);
+    padding-block: 6px ;
+}
+
+  

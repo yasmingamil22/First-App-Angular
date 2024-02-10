@@ -1,0 +1,26 @@
+
+<div  class="mb-4">
+        <div  class="pt-3 conatiner">
+
+               
+                    <app-star [headingText]="'contact section'" [bgColor]="'#2c3e50'"></app-star> 
+
+
+                <form   action="" class="w-50 p-3 mx-auto mt-5 ">
+
+                <label [class.invisible]="userValue.length ==0" for="userName" class="input-label">userName : </label>
+                <input [(ngModel)]="userValue" id="userName" type="text" placeholder="userName" name="userName" class="form-control border-0 border-bottom py-3 ">
+                
+                <label  [class.invisible]="ageValue.length==0" for="userAge"  class="input-label">userAge : </label>
+                <input  [(ngModel)]="ageValue" id="userAge" type="text" placeholder="userAge" name="userName" class="form-control border-0 border-bottom py-3  ">
+                
+                <label  [class.invisible]="emailValue.length==0" for="userEmail" class="input-label">userEmail : </label>
+                <input  [(ngModel)]="emailValue" id="userEmail" type="text" placeholder="userEmail" name="userName" class="form-control border-0 border-bottom py-3 ">
+               
+                <label  [class.invisible]="passwordValue.length==0" for="userPassword" class="input-label" >userPassword : </label>
+                <input  [(ngModel)]="passwordValue" id="userPassword" type="text" placeholder="userPassword" name="userName" class="form-control border-0 border-bottom py-3 ">
+                
+                <button  class="btn mt-4 text-white" style="background-color: #1abc9c;"> send Message </button>
+            </form>
+        </div>
+    </div>

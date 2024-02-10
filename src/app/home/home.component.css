@@ -1,0 +1,11 @@
+.home{
+    background-color: var(--main-color);
+    min-height: inherit;
+}
+.home img{
+    width: 250px;
+}
+.home .line {
+    height: 4px;
+    width: 80px;
+}

@@ -1,0 +1,27 @@
+<div  class="p-4 container">
+
+    <app-star [headingText]="'portfolio component'" [bgColor]="'#2c3e50'"></app-star>
+
+    <div class="row g-5 pt-3">
+
+        <div *ngFor="let photo of photos"  class="col-md-6 col-lg-4">
+            <div class="photo" (click)="openModel(photo.photoSrc)">
+                <img [src]="photo.photoSrc" alt="" class="w-100 ">
+                <div class="layer d-flex justify-content-center align-items-center">
+                    <i class="text-white fa-solid fa-plus fa-6x"></i>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+<div (click)="onClickOutsideModal($event)" *ngIf="imgUrl.length>0"  
+class="model position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center">
+    
+<img [src]="imgUrl" alt="" class="">
+
+</div>
+
